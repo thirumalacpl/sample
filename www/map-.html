@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place searches</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+<link rel="stylesheet" href="css/my.css">
+       <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+<script src="js/map.js"></script>
+
+  </head>
+  <body onload="loader();">
+<div data-role="page" id="pageone">
+  <div data-role="header">
+  <a href="#pageone" data-role="button" class="ui-btn-left ui-link ui-btn ui-icon-back ui-btn-icon-left ui-shadow ui-corner-all" data-icon="back" data-rel="back" role="button" data-transition="pop" data-direction="reverse">Go Back</a>
+    <h1>a</h1>
+  </div>
+
+<!--display list of searches start-->
+  <div data-role="main" class="ui-content" >
+  <div id="att">
+  <p>hello thr</p>
+</div>
+
+<a href="#positionWindowwer" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup" data-position-to="window">Position to window</a>
+<div data-role="popup" id="positionWindowwer" class="ui-content" data-theme="a">
+<hr>
+<div id="basic-map" >
+            <div data-role="header">
+                <h1><a data-ajax="false" href="">jQuery mobile with Google maps v3</a></h1>
+            </div>
+            <div data-role="content">   
+                <div class="ui-bar-c ui-corner-all ui-shadow" style="padding:1em;">
+                    <div id="map_canvas" style="height:350px;"></div>
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="target-dest">Target Destination:</label>
+                    <input type="text" name="target-dest" id="target-dest" value=""  />
+                </div>
+                <a href="#" id="directions-button" data-role="button" data-inline="true" data-mini="true">Get Directions</a>
+               <!--     <a href="#" id="directions-buttona" data-role="button" data-inline="true" data-mini="true">Get Directions</a> -->
+                <div id="results" style="display:none;">
+                    <div id="directions"></div>
+                </div>
+            </div>
+        </div> 
+ <hr>
+
+</div>
+
+
+
+
+  </div>
+  <!--display list of searches end-->
+
+
+
+
+</div>
+<div class="cssload-thecube">
+  <div class="cssload-cube cssload-c1"></div>
+  <div class="cssload-cube cssload-c2"></div>
+  <div class="cssload-cube cssload-c4"></div>
+  <div class="cssload-cube cssload-c3"></div>
+</div>
+  <ul class="collapsible" data-collapsible="accordion">
+
+  </ul>
+
+
+    <div id="map"></div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSwVAfk41GhbDdXgduRhXfCly51ebHcmM&signed_in=true&libraries=places&callback=initMap" async defer></script>
+  </body>
+</html>

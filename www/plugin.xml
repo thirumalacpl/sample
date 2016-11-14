@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.develcode.plugins.volumeControl"
+        version="1.0">
+
+   <name>Android Volume Control Plugin</name>
+
+   <description>
+      Allows setting and retrieving the media volume of the device.
+   </description>
+
+   <license>MIT</license>
+
+   <engines>
+      <engine name="cordova" version=">=3.0.0"/>
+   </engines>
+
+   <dependency id="cordova-plugin-geolocation" version="1.0.1" />
+  <js-module src="www/CheckGPS.js" name="CheckGPS">
+    <clobbers target="CheckGPS" />
+  </js-module>
+  <platform name="android">
+    <source-file src="src/android/CheckGPS.java" target-dir="src/de/fastr/phonegap/plugins" />
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="CheckGPS">
+        <param name="android-package" value="de.fastr.phonegap.plugins.CheckGPS"/>
+      </feature>
+    </config-file>
+  </platform>
+
+   <platform name="android">
+      <config-file target="config.xml" parent="/*">
+         <feature name="VolumeControl">
+            <param name="android-package" value="com.develcode.plugins.volumeControl.VolumeControl" />
+         </feature>
+      </config-file>
+
+      <config-file target="AndroidManifest.xml" parent="/manifest">
+         <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+      </config-file>
+
+      <js-module src="www/VolumeControl.js" name="VolumeControl">
+         <clobbers target="cordova.plugins.VolumeControl" />
+      </js-module>
+
+      <source-file src="src/android/VolumeControl.java" target-dir="src/com/develcode/plugins/volumeControl" />
+
+   </platform>
+</plugin>

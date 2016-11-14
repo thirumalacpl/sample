@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>My Heart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.min.css" />
+    <link rel="stylesheet" href="vendor/waves/waves.min.css" />
+    <link rel="stylesheet" href="vendor/wow/animate.css" />
+    <link rel="stylesheet" href="css/nativedroid2.css" />
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<script src="js/jquery.mobile.min.js"></script>
+   <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/jquery.min.js"></script> -->
+
+
+<style type="text/css">
+
+.ui-controlgroup-horizontal .ui-controlgroup-controls .ui-btn.ui-radio-on {
+    background-color: #00a3b5 !important;
+    color: #ffffff;
+}
+</style>
+
+
+  </head>
+
+
+<body>
+<!--main page-->
+<div data-role="page" id="page_five" class="main-bg">   
+<script src="js/five.js"></script>
+        
+      <div data-role="panel" id="bottomsheet" data-animate="false" data-position='bottom' data-display="overlay">
+        <nd2-include data-src=".//examples/fragments/bottom.sheet.html"></nd2-include> 
+      </div>
+
+       <div data-role="header" data-position="fixed" class="wow fadeInDown" data-wow-delay="0.2s">
+        <a href="#bottomsheet" class="ui-btn ui-btn-right wow fadeIn" data-wow-delay='1.2s'><i class="zmdi zmdi-more-vert"></i></a>
+        <a href="#patient_details" class="ui-btn ui-btn-left wow fadeIn" data-wow-delay='0.8s'><i class="zmdi  zmdi-arrow-back"></i></a>
+        <h1 class="wow fadeIn" data-wow-delay='0.4s'>Question</h1>
+      </div>
+
+
+
+  <form method="post" data-ajax="false" action="#" id="lpaform">
+  <input type="hidden" name="activityval" id="activityval" >
+
+  <input type="hidden" name="plant_id" id="plant_id" >
+  <input type="hidden" name="part_id" id="part_id" >
+  <input type="hidden" name="shift" id="shift" >
+  <input type="hidden" name="user_id" id="user_id" >              
+  <div role="main" class="ui-content full"  >
+
+<!-- <div data-role="main" class="ui-content poda" id="pagination"> -->
+ <h3 class="ui-bar ui-bar-a texsb" >Create LPA</h3>
+
+<div id="pagination">
+</div>
+  
+</div>
+<form>
+
+<div class="row">
+<div class="col-xs-3 padz"></div>
+ <div class="col-xs-6 padz">
+   
+<a href="" class="txt-dec">  <input type="button" value="Enter" style="border: solid 2px #00BBD3;opacity: inherit; border-radius: 0px;" id="lpa_create"> </a>
+ </div>
+
+<div class="col-xs-3 padz"></div>
+
+
+</div>
+  
+<!--   <div class="cena">
+        <a href="#" class="ui-btn ui-corner-all ui-shadow but "   id="lpa_create">SUBMIT</a><br>
+    </div> -->
+  
+
+
+  
+
+  </div> <!---main div page end-->
+
+</body>
+</html>

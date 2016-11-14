@@ -1,0 +1,243 @@
+.img_display_doc{
+	width:60% !important;
+	height:60% !important;
+	padding-left: 50px !important;
+	padding-top: 50px !important;
+}
+.zoo_im{
+	width:75% !important;
+	height:75% !important;
+}
+.zoo_pop{
+	width:75% !important;
+	height:75% !important;
+}
+
+
+.imj{
+	    height: 100% !important;
+    width: 100% !important;
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    padding-top: 10% !important;
+    background-color: #DADCE3 !important;
+}
+.delete_iop{
+	padding-left: 20px !important;
+}
+
+@media only screen and (min-width: 300px) and (max-width:480px){
+.ui-mobile label, .ui-controlgroup-label, .ui-controlgroup-label legend {
+    font-size: 16px !important;
+    font-weight: 400;
+    color: #696969;
+    margin-bottom: 0px;
+}
+.ui-input-text input, .ui-input-search input, textarea.ui-input-text.ui-textinput-autogrow {
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid 1px solid #EBEBEB;
+    position: relative;
+    margin: 0px;
+    height: 40px;
+    padding: 10px;
+    line-height: 16px;
+    background-color: #ebebeb;
+    border-left: solid 3px #FFFFFF;
+    font-weight: normal;
+}
+.ssecc {
+    color: white;
+    font-size: 19px !important;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 600;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+}
+.ui-page-theme-a .ui-btn.ui-radio-on:after {
+    border-color: #F5F0E1 !important;
+    border: 15px solid #F5F0E1;
+    margin-top: -10px !important;
+}
+.ui-page-theme-a .ui-radio .ui-btn.ui-radio-on:before {
+    background-color: #00A3B5 !important;
+    margin-top: -10px !important;
+}
+.ui-btn.ui-radio-off:after, .ui-btn.ui-radio-on:after {
+    position: absolute;
+    top: 15px !important;
+    left: 5px !important;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    cursor: pointer;
+    border: 15px solid #F5F0E1;
+    border-radius: 50%;
+    z-index: 2;
+    margin-top: -10px !important;
+}
+/*.leg {
+
+    background-color: #3991A7 !important;
+
+    color: white !important;
+    padding: 12px;
+    font-size: 18px !important;
+     height: 100% !important; 
+}*/
+.leg {
+    /* background-color: #53a596 !important; */
+    /* background-color: #3991A7 !important; */
+    background-color: #0B4250 !important;
+    /* background-color: #7E8AAF !important; */
+    width: 92.5%;
+    color: white !important;
+    padding: 12px;
+    font-size: 18px !important;
+    height: 100% !important;
+}
+.select_agelab{
+        background-color: #207A90 !important;
+        color:white !important;
+        font-weight:600 !important; 
+}
+#myPopup1d{
+  
+     /*   background-color: #185B6C;
+    color: white;*/
+    background-color: #3D494C;
+    color: white;
+    border-radius: 20px;
+       border: 5px solid #15B2DA;
+}
+
+#myPopup1da{
+    background-color: #3D494C;
+    color: white;
+    border-radius: 20px;
+    /*    background-color: #185B6C;
+    color: white;*/
+       border: 5px solid #15B2DA;
+}
+.age_n_style{
+        width: 700px!important;
+}
+.age_n_style_mob{
+        width: 700px!important;
+}
+
+.emr-nonemer{
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+}
+.search_near_by_buttt{
+        background-color: #B73030 !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 800 !important;
+}   
+
+}
+
+@media only screen and (min-width: 480px) and (max-width:1028px){
+	.ui-mobile label, .ui-controlgroup-label, .ui-controlgroup-label legend {
+    font-size: 20px !important;
+    font-weight: 400;
+    color: #696969;
+    margin-bottom: 0px;
+}
+/*.leg {
+
+    background-color: #3991A7 !important;
+  
+    color: white !important;
+    padding: 12px;
+    font-size: 18px !important;
+     height: 100% !important; 
+}*/
+.leg {
+    /* background-color: #53a596 !important; */
+    /* background-color: #3991A7 !important; */
+    background-color: #0B4250 !important;
+    /* background-color: #7E8AAF !important; */
+    width: 96.5%;
+    color: white !important;
+    padding: 12px;
+    font-size: 18px !important;
+    height: 100% !important;
+}
+.select_agelab{
+        background-color: #207A90 !important;
+        color:white !important;
+        font-weight:600 !important; 
+}
+.ui-input-text input, .ui-input-search input, textarea.ui-input-text.ui-textinput-autogrow {
+    font-size: 20px;
+    border-radius: 2px;
+    border: 1px solid 1px solid #EBEBEB;
+    position: relative;
+    margin: 0px;
+    height: 40px;
+    padding: 10px;
+    line-height: 16px;
+    background-color: #ebebeb;
+    border-left: solid 3px #FFFFFF !important;
+    font-weight: normal;
+}
+#myPopup1d{
+        /* width: 100%; */
+    /* color: white; */
+    width: 350px !important;
+    margin-left: -80px !important;
+    text-align: center !important;
+    /* width: 250px; */
+    /* height: 50px; */
+    padding: 50px !important;
+      /*  background-color: #185B6C;*/
+    color: white;
+     border-radius: 20px;
+    background-color: #3D494C;
+        border: 5px solid #15B2DA;
+}
+
+#myPopup1da{
+        /* width: 100%; */
+    /* color: white; */
+    width: 350px !important;
+    margin-left: -50px !important;
+    text-align: center !important;
+    /* width: 250px; */
+    /* height: 50px; */
+    padding: 50px !important;
+      /*  background-color: #185B6C;*/
+    color: white;
+     border-radius: 20px;
+    background-color: #3D494C;
+        border: 5px solid #15B2DA;
+}
+.popsi{
+    font-size:23px !important; 
+}
+.age_n_style{
+        width: 700px!important;
+}
+.age_n_style_mob{
+        width: 700px!important;
+}
+.emr-nonemer{
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+}
+.search_near_by_buttt{
+        background-color: #B73030 !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: 800 !important;
+}
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place searches</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+<link rel="stylesheet" href="css/my.css">
+       <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+<script src="js/map.js"></script>
+
+  </head>
+  <body onload="loader();">
+<div data-role="page" id="pageone">
+  <div data-role="header">
+  <a href="index.html#question" data-role="button" class="ui-btn-left ui-link ui-btn ui-icon-back ui-btn-icon-left ui-shadow ui-corner-all" data-icon="back" data-rel="back" role="button" data-transition="pop" data-direction="reverse">Go Back</a>
+    <h1>a</h1>
+  </div>
+  
+  <div data-role="main" class="ui-content" id="">
+  
+  
+    <div id="att">
+  <p>hello thr</p>
+</div>
+  </div>
+</div>
+<div class="cssload-thecube">
+  <div class="cssload-cube cssload-c1"></div>
+  <div class="cssload-cube cssload-c2"></div>
+  <div class="cssload-cube cssload-c4"></div>
+  <div class="cssload-cube cssload-c3"></div>
+</div>
+  <ul class="collapsible" data-collapsible="accordion">
+
+  </ul>
+    <div id="map"></div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSwVAfk41GhbDdXgduRhXfCly51ebHcmM&signed_in=true&libraries=places&callback=initMap" async defer></script>
+  </body>
+</html>
